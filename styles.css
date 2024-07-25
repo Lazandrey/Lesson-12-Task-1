@@ -19,8 +19,12 @@ header {
   padding: 7rem 10rem;
   gap: 2rem;
 }
-header h1,
-p {
+header h1 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+header p {
   color: white;
   text-align: center;
   justify-content: center;
@@ -28,6 +32,13 @@ p {
 header h1 {
   font-size: 2.5rem;
   letter-spacing: 0.5rem;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
 }
 .page-wrapper {
   min-height: 100vh;
@@ -51,16 +62,20 @@ header h1 {
 }
 .about-us {
   width: 100%;
-  Height: 20rem;
+  height: 30rem;
   display: flex;
   flex-direction: row;
-  padding: 10rem 20rem;
+  padding: 0 20rem;
 }
 .Y25 {
+  width: 50%;
   background-image: url(./Wallery_0583.jpg);
   background-size: cover;
 }
 .dash-img {
   width: 20rem;
   height: 3rem;
+}
+.au-article {
+  width: 50%;
 }
