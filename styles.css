@@ -51,6 +51,7 @@ header h1 {
 }
 .about-us {
   width: 100%;
+  Height: 20rem;
   display: flex;
   flex-direction: row;
   padding: 10rem 20rem;
