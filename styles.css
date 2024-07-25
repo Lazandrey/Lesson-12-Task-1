@@ -49,3 +49,17 @@ header h1 {
 .projects-a a {
   color: white;
 }
+.about-us {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10rem 20rem;
+}
+.Y25 {
+  background-image: url(./Wallery_0583.jpg);
+  background-size: cover;
+}
+.dash-img {
+  width: 20rem;
+  height: 3rem;
+}
