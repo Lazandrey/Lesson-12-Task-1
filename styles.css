@@ -48,7 +48,7 @@ main {
   align-items: center;
   padding: 0.5rem 1rem;
   background-color: aliceblue;
-  gap: 3rem;
+  gap: 5rem;
 }
 .projects-a {
   border: 1px solid white;
@@ -62,11 +62,11 @@ main {
 }
 .about-us {
   width: 100%;
-  height: 35rem;
+  height: 30rem;
   display: flex;
   flex-direction: row;
-  /* padding: 0 20rem; */
-  gap: 2rem;
+
+  gap: 5rem;
   justify-content: center;
 }
 .Y25 {
@@ -103,13 +103,37 @@ main {
 }
 .au-article {
   width: 30%;
-  padding: 3rem 0;
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-around;
+  gap: 1rem;
 }
-.au-article h3 {
-  color: grey;
+.au-article h2 {
+  font-size: 2rem;
+}
+.au-article h4 {
+  color: rgb(167, 165, 165);
+}
+.au-article ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.au-article ul li::before {
+  content: "";
+  /* width: 1rem;
+  height: 1rem; */
+  padding: 0 0.5rem;
+  background-color: rgb(88, 192, 88);
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+.aboutus-a {
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
